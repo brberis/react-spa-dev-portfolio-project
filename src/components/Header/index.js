@@ -1,14 +1,13 @@
-import React from 'react';
-import Navigation from './Navigation';
-import avatar from './assets/images/avatar.png'; // with import
+import Navigation from '../Navigation';
+import avatar from '../../assets/images/avatar.png'; // with import
 
 
 function Header(props) {
-  const {
-    titles = [],
-    setCurrentTitle,
-    currentTitle,
-  } = props;
+  // const {
+  //   contactSelected,
+  //   setContactSelected,
+  // } = props;
+
 
   return (
 
@@ -18,9 +17,9 @@ function Header(props) {
       <h1>Cristobal A Barberis</h1>
     </div>
     <Navigation
-        titles={titles}
-        setCurrentTitle={setCurrentTitle}
-        currentTitle={currentTitle}
+      // contactSelected={contactSelected}
+      // setContactSelected={setContactSelected}
+      {...props}
       ></Navigation>  
     </header>
   );

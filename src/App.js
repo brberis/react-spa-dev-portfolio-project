@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
+
+  const [menu] = useState(['About', 'Portfolio', 'Contact', 'Resume']);
+  const [currentTitle, setCurrentTitle] = useState(menu[0])
+
+  // const [aboutSelected, setAboutSelected] = useState(true);
+  // const [portfolioSelected, setPortfolioSelected] = useState(false);
+  // const [contactSelected, setContactSelected] = useState(false);
+  // const [resumeSelected, setResumeSelected] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header
+        menu={menu} 
+        currentTitle={currentTitle}    
+        setCurrentTitle={setCurrentTitle}    
+        ></Header>
     </div>
   );
 }
