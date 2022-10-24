@@ -34,27 +34,23 @@ function Resume() {
         <h3>
           Front-end Proficiencies      
         </h3>
-        <p>
-          {front.map((frontSkill, i) => (
-            <ul>
+          <ul>
+            {front.map((frontSkill, i) => (
               <li key={i}>
-                {frontSkill}
+                <p>{frontSkill}</p>
               </li>
-            </ul>
-          ))}
-        </p>
+            ))}
+          </ul>
         <h3>
           Back-end Proficiencies      
         </h3>
-        <p>
-          {back.map((backSkill, i) => (
           <ul>
-            <li key={i}>
-              {backSkill}
-            </li>
+            {back.map((backSkill, i) => (
+              <li key={i}>
+                <p>{backSkill}</p>
+              </li>
+            ))}
           </ul>
-          ))}
-        </p>
       </div>
     </section>
   );

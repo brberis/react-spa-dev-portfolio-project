@@ -6,7 +6,7 @@ function Portfolio() {
       name: 'Dev Connect',
       image:'https://github.com/brberis/dev-connect-portfolio-sharing/raw/main/assets/images/web.png?raw=true',
       github: 'https://github.com/brberis/dev-connect-portfolio-sharing',
-      deployment: 'https://github.com/brberis/dev-connect-portfolio-sharing'
+      deployment: 'https://dev-connect-portfolio-sharing.herokuapp.com'
     },
     {
       name: 'NFT Force',
@@ -15,7 +15,7 @@ function Portfolio() {
       deployment: 'https://brberis.github.io/nft-force/Develop/index.html'
     },
     {
-      name: 'Weather API Dashboard',
+      name: 'Weather API',
       image:'https://github.com/brberis/cbr-weather-api/raw/main/Develop/assets/images/web.png',
       github: 'https://github.com/brberis/cbr-weather-api',
       deployment: 'https://brberis.github.io/cbr-weather-api/Develop/'
@@ -29,11 +29,11 @@ function Portfolio() {
     {
       name: 'MVC-CMS Blog App',
       image:'https://github.com/brberis/mvccms-blog-app/raw/main/assets/images/web.png',
-      github: 'https://github.com/brberis/dev-connect-portfolio-sharing',
-      deployment: 'https://github.com/brberis/dev-connect-portfolio-sharing'
+      github: 'https://github.com/brberis/mvccms-blog-app',
+      deployment: 'https://mvccms-blog-app.herokuapp.com/'
     },
     {
-      name: 'Simple Work Day Calendar',
+      name: 'Work Day Calendar',
       image:'https://github.com/brberis/jq-work-day-cal/raw/main/Develop/assets/images/web.png',
       github: 'https://github.com/brberis/jq-work-day-cal',
       deployment: 'https://brberis.github.io/jq-work-day-cal/Develop/'

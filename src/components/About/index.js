@@ -16,7 +16,7 @@ function About() {
         </p>
         <br />
         <p>
-          Here are my latest projects and collabotaions.      
+          Here are my latest projects and collaborations.      
         </p>
       </div>
     </section>

@@ -3,7 +3,6 @@ import React from 'react';
 
 function Project(props) {
   const { projects } = props;
-  console.log(projects);
 
   return (
     <>
@@ -13,8 +12,11 @@ function Project(props) {
             <img src={project.image} alt={project.name}/>
           </a>
           <div className="article-info">
-            <h4>Dev Connect</h4>
-            <p>Node/ Handlebars</p>
+            <h4>{project.name}</h4>
+            <p>
+            <a href={project.github} target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i>&nbsp;GitHub</a>
+            <a href={project.deployment} target="_blank" rel="noreferrer"><i className="fa-solid fa-earth-americas"></i>&nbsp;Deployment</a>
+            </p>
           </div>
         </div>
       ))}
