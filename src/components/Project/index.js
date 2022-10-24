@@ -9,8 +9,8 @@ function Project(props) {
     <>
       {projects.map((project, i) => (
         <div key={i} className="article-detail">
-          <a href={project.github} target="_blank">
-            <img src={project.image} />
+          <a href={project.github} target="_blank" rel="noreferrer">
+            <img src={project.image} alt={project.name}/>
           </a>
           <div className="article-info">
             <h4>Dev Connect</h4>

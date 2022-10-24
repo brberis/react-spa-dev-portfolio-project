@@ -96,6 +96,10 @@ header nav ul li a:hover {
   align-items: flex-end;
 }
 
+.hero-mini {
+  height: 140px;
+}
+
 .hero div {
   display: flex;
   flex-direction: column;
@@ -115,7 +119,12 @@ header nav ul li a:hover {
 
 /* about me */
 #about-me img {
-  display: none;
+  display: block;
+  margin: 40px auto 30px auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid var(--header-color);
 }
 
 /* work section start */
@@ -127,12 +136,11 @@ header nav ul li a:hover {
 }
 
 .content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: block;
+  margin-top: 50px;
+  text-align: center;
   margin: 30px 100px 30px 100px;
-
-  /* margin: 0 auto; */
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -159,6 +167,20 @@ header nav ul li a:hover {
   line-height: 1.5;
   color: var(--text-color);
 }
+
+.main-content {
+  border: none;
+  padding-left: 0;
+}
+
+.section-title h2 {
+  text-align: center;
+  border-bottom: 3px solid;
+  margin: 0 auto 35px auto;
+  width: 60%;
+
+}
+
 /* about me start */
 
 /* work section start */
@@ -219,32 +241,122 @@ article h4 {
   font-size: 22px;
 }
 /* work section end */
+ 
+/* resume section end */
+.resume {
+  margin: 50px 150px;
+  text-align: left;
+}
+
+.resume h3 {
+  margin: 13px auto;
+}
+
+.resume li {
+  margin-left: 20px;
+}
+
+.resume button {
+  margin-bottom: 20px;
+}
+/* end resume section end */
+
+/* contact form */
+form {
+  width: 50%;
+  text-align: left;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255, .5);
+  font-size: 16px;
+  padding: 15px;
+}
+
+input {
+  width: 100%;
+  background-color: #fff;
+  color: var(--header-color);
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input:hover {
+  background-color: #ffffffe8;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: var(--header-color);
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button {
+  padding: 9px;
+  width: 100px;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+}
+
+button:active {
+  background-color: var(--primary-color);
+  border: 3px;
+}
+
+.btn-div {
+  text-align: end;
+}
+/* end contact form */
 
 /* contact me section start */
+.footer {
+  background-color: var(--header-color);
+  margin: 0;
+}
+
 .footer-menu {
-  padding: 50px 0;
+  padding: 60px 0;
 }
 .footer-menu ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 25px;
+  justify-content:center;
+
   align-items: center;
   list-style: none;
 }
 
-
-.footer-menu ul li a {
+.footer-menu ul li {
   font-weight: bolder;
-  font-size: 16px;
-  padding: 5px 10px;
-  border-bottom: 3px solid;
+  font-size: 35px;
+  padding: 5px 20px;
   margin: 0 0px;
-  color: var(--text-color);
+  opacity: 0.6;
 }
 
-.footer-menu ul li a:hover {
-  color: rgb(10, 10, 10)
+.footer-menu ul li:hover{
+  opacity: 0.9;
+}
+
+.footer-menu ul li a {
+  color: var(--secondary-color);
+}
+
+.footer-menu ul li a:visited {
+  color: var(--secondary-color);
 }
 /* contact me section end */
 
@@ -268,6 +380,10 @@ article h4 {
 
   .hero div {
     margin-right: 30px;
+  }
+
+  .hero-mini {
+    display: none;
   }
 
   .content {
@@ -327,33 +443,14 @@ article h4 {
     font-size: 24px;
   }
 
-  .content {
-    display: block;
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  #about-me img {
-    display: block;
-    margin: 40px auto 30px auto;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 5px solid var(--header-color);
-  }
-
-  .main-content {
-    border: none;
-    padding-left: 0;
-  }
-
   .section-title h2 {
     font-size: 36px;
-    text-align: center;
-    border-bottom: 3px solid;
-    margin: 0 auto 35px auto;
-    width: 50%;
 
+  
+  }
+
+  form {
+    width: 70%;
   }
 
   /* delete break line in titles */
@@ -400,6 +497,10 @@ article h4 {
     margin: 20px;
   }
 
+  form {
+    width: 90%;
+  }
+
   .content p {
     line-height: 1.25;
     font-size: 19px;
@@ -442,3 +543,5 @@ article h4 {
   }
 
 }
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');

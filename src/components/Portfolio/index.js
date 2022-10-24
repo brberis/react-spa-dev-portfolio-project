@@ -43,7 +43,7 @@ function Portfolio() {
   return (
     <section className="content">
       <div id="work" className="section-title">
-        <h2>Work</h2>
+        <h2>Projects</h2>
       </div>
       <div className="main-content">
         <article>

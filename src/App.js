@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -27,6 +30,12 @@ function App() {
           </section>
         </>
       ):''}
+      {currentTitle !== 'About' ? (
+        <>
+          <section className="hero hero-mini">
+          </section>
+        </>
+      ):''}
       <section className="main-section">
         {currentTitle === 'About' ? (
           <>
@@ -38,10 +47,24 @@ function App() {
             <Portfolio></Portfolio>
           </>
         ):''}
+        {currentTitle === 'Contact' ? (
+          <>
+            <Contact></Contact>
+          </>
+        ):''}
+        {currentTitle === 'Resume' ? (
+          <>
+            <Resume></Resume>
+          </>
+        ):''}
       </section>
+      <>
+        <Footer></Footer>
+      </>
     </div>
 
   );
 }
 
 export default App;
+
