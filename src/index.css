@@ -15,7 +15,7 @@
 
 body {
   background-color: var(--header-color);
-  max-width: 1200px;
+  /* max-width: 1200px; */
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 

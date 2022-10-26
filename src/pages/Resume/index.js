@@ -57,5 +57,3 @@ function Resume() {
 }
 
 export default Resume;
-
-var a = "Django, Python, PostgreSQL, MySQL, JQuery, MERN Stack - MongoDB, ExpressJs, React, NodeJs. Sequelize ORM, Handlebars, Jest, WebPack, NGINX, Linux, Droplets VPS, Heroku, DO Apps, Elastic AWS. OOP, PWA, Repository management and version control (Git and GitHub)."
