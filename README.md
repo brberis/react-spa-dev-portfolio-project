@@ -8,9 +8,9 @@
 ## Description
 
 This is a Single Page Application developed in React and is the client part of a develop portfolio webpage that shows projects, contact form with field validation, bio page and resume page featuring a pdf download button.
-This simple project was developed using Mobile First design and it’s meant  to demonstrate how DRY and  modulized can make the React library programing using javascript and JPX utilizing reusable components in several pages. Also how effective can be React rendering portions of the web and updating just the data necessary without the need to refresh or re-draw the whole page.
+This simple project was developed using Mobile First design and it’s meant  to demonstrate how DRY and modulized can React library programing do, using javascript ES6 and JPX utilizing reusable components in several pages. Also how effective can be React rendering portions of the web, updating just the data necessary without the need to refresh or re-draw the whole page.
 As this app doesn't include back-end, all the data is hardcode in stated objects and passed to children through props.
-Also this site doesn't use react router. And this was solved by creating simple anchor links. But under the hook, is react that’s doing the work.
+Also this site doesn't use react router. And this was solved by showing simple anchor links in the url. But under the hook, is react that’s doing the work.
 
 ## Screenshot
 
