@@ -14,7 +14,7 @@ Also this site doesn't use react router. And this was solved by creating simple 
 
 ## Screenshot
 
-![alt screenshot](https://github.com/brberis/react-spa-dev-portfolio-project/raw/main/src/assets/images/web.png)
+<img src="https://github.com/brberis/react-spa-dev-portfolio-project/raw/main/src/assets/images/web.png" width="300px" >
 
 ## Features
 
