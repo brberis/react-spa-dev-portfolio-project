@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Resume() {
   const [front] = useState(['JavaScript ES6','JSON','Rest API','DjangoCMS','JQuery', 'ReactJs', 'Angular2+','TypeScript',
-                            'WebPack', 'Bootstrap CSS','PWA']);
+                            'WebPack', 'Bootstrap CSS','Progressive Web Apps']);
   const [back] = useState(['Django','Python','PostgreSQL','MySQL', 'NoSQL', 'Restful', 'GraphQL', 'Session and JWT Authentication', 'MERN Stack - MongoDB','ExpressJs',
                             'NodeJs. Sequelize ORM','Handlebars','Jest','NGINX','Linux',
                             'Droplets VPS', 'DO Apps', 'Heroku','Elastic AWS', 'OOP', 'TDD',
