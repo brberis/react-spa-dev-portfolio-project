@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 function Resume() {
   const [front] = useState(['JavaScript ES6','JSON','Rest API','DjangoCMS','JQuery', 'ReactJs', 'Angular2+','TypeScript',
                             'WebPack', 'Bootstrap CSS','Progressive Web Apps']);
-  const [back] = useState(['Django','Python','PostgreSQL','MySQL', 'NoSQL', 'Restful', 'GraphQL', 'Session and JWT Authentication', 'MERN Stack - MongoDB','ExpressJs',
-                            'NodeJs. Sequelize ORM','Handlebars','Jest','NGINX','Linux',
+  const [back] = useState(['NodeJs','Python', 'Django','PostgreSQL','MySQL', 'NoSQL (MongoDB)', 'Restful', 'GraphQL', 'Session and JWT Authentication', 'MERN Stack','ExpressJs',
+                            'Sequelize ORM','Handlebars','Jest','NGINX','Linux',
                             'Droplets VPS', 'DO Apps', 'Heroku','Elastic AWS', 'OOP', 'TDD',
                             'Repository management and version control (GitHub and Git).']);
 
