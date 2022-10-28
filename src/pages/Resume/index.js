@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 function Resume() {
-  const [front] = useState(['JavaScript ES6','JSON','Rest API','Django','JQuery','Angular','TypeScript',
-                            'Bootstrap CSS','PWA']);
-  const [back] = useState(['Django','Python','PostgreSQL','MySQL','JQuery','MERN Stack - MongoDB','ExpressJs',
-                            'React','NodeJs. Sequelize ORM','Handlebars','Jest','WebPack','NGINX','Linux',
-                            'Droplets VPS','Heroku','DO Apps','Elastic AWS. OOP','PWA',
+  const [front] = useState(['JavaScript ES6','JSON','Rest API','DjangoCMS','JQuery','Angular','TypeScript', 'React',
+                            'WebPack', 'Bootstrap CSS','PWA']);
+  const [back] = useState(['Django','Python','PostgreSQL','MySQL', 'Restful', 'GraphQL', 'Sessions and JWT Authentication' 'MERN Stack - MongoDB','ExpressJs',
+                            'NodeJs. Sequelize ORM','Handlebars','Jest','NGINX','Linux',
+                            'Droplets VPS','Heroku','DO Apps','Elastic AWS. OOP',
                             'Repository management and version control (Git and GitHub).']);
 
   const onButtonClick = () => {
