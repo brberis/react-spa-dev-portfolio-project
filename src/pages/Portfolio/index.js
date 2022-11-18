@@ -3,6 +3,12 @@ import Project from '../../components/Project';
 function Portfolio() {
   const [projects] = useState([
     {
+      name: 'Ai Dream',
+      image:'https://raw.githubusercontent.com/brberis/ai-dream-io/feature/readme/assets/images/web.png',
+      github: 'https://github.com/brberis/ai-dream-io#questions',
+      deployment: 'https://boiling-sea-19359.herokuapp.com/herokuapp.com'
+    },
+    {
       name: 'Dev Connect',
       image:'https://github.com/brberis/dev-connect-portfolio-sharing/raw/main/assets/images/web.png?raw=true',
       github: 'https://github.com/brberis/dev-connect-portfolio-sharing',
