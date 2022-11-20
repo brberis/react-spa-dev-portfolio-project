@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-spa-dev-portfolio-project/static/css/main.19c168d6.css",
-    "main.js": "/react-spa-dev-portfolio-project/static/js/main.5ded090b.js",
-    "static/js/787.eef0f175.chunk.js": "/react-spa-dev-portfolio-project/static/js/787.eef0f175.chunk.js",
-    "static/media/boats.jpg": "/react-spa-dev-portfolio-project/static/media/boats.609f703c00d5243d1e5b.jpg",
-    "static/media/avatar.png": "/react-spa-dev-portfolio-project/static/media/avatar.1e068326bb06da87a451.png",
-    "index.html": "/react-spa-dev-portfolio-project/index.html",
-    "main.19c168d6.css.map": "/react-spa-dev-portfolio-project/static/css/main.19c168d6.css.map",
-    "main.5ded090b.js.map": "/react-spa-dev-portfolio-project/static/js/main.5ded090b.js.map",
-    "787.eef0f175.chunk.js.map": "/react-spa-dev-portfolio-project/static/js/787.eef0f175.chunk.js.map"
+    "main.css": "/portfolio.barberis.com/static/css/main.60b0555c.css",
+    "main.js": "/portfolio.barberis.com/static/js/main.452dcadb.js",
+    "static/js/787.eef0f175.chunk.js": "/portfolio.barberis.com/static/js/787.eef0f175.chunk.js",
+    "static/media/boats.jpg": "/portfolio.barberis.com/static/media/boats.609f703c00d5243d1e5b.jpg",
+    "static/media/avatar.png": "/portfolio.barberis.com/static/media/avatar.1e068326bb06da87a451.png",
+    "index.html": "/portfolio.barberis.com/index.html",
+    "main.60b0555c.css.map": "/portfolio.barberis.com/static/css/main.60b0555c.css.map",
+    "main.452dcadb.js.map": "/portfolio.barberis.com/static/js/main.452dcadb.js.map",
+    "787.eef0f175.chunk.js.map": "/portfolio.barberis.com/static/js/787.eef0f175.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c168d6.css",
-    "static/js/main.5ded090b.js"
+    "static/css/main.60b0555c.css",
+    "static/js/main.452dcadb.js"
   ]
 }
