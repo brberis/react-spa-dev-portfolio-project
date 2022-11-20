@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio.barberis.com/static/css/main.60b0555c.css",
-    "main.js": "/portfolio.barberis.com/static/js/main.452dcadb.js",
-    "static/js/787.eef0f175.chunk.js": "/portfolio.barberis.com/static/js/787.eef0f175.chunk.js",
-    "static/media/boats.jpg": "/portfolio.barberis.com/static/media/boats.609f703c00d5243d1e5b.jpg",
-    "static/media/avatar.png": "/portfolio.barberis.com/static/media/avatar.1e068326bb06da87a451.png",
-    "index.html": "/portfolio.barberis.com/index.html",
-    "main.60b0555c.css.map": "/portfolio.barberis.com/static/css/main.60b0555c.css.map",
-    "main.452dcadb.js.map": "/portfolio.barberis.com/static/js/main.452dcadb.js.map",
-    "787.eef0f175.chunk.js.map": "/portfolio.barberis.com/static/js/787.eef0f175.chunk.js.map"
+    "main.css": "/static/css/main.d0327777.css",
+    "main.js": "/static/js/main.adee37ff.js",
+    "static/js/787.eef0f175.chunk.js": "/static/js/787.eef0f175.chunk.js",
+    "static/media/boats.jpg": "/static/media/boats.609f703c00d5243d1e5b.jpg",
+    "static/media/avatar.png": "/static/media/avatar.1e068326bb06da87a451.png",
+    "index.html": "/index.html",
+    "main.d0327777.css.map": "/static/css/main.d0327777.css.map",
+    "main.adee37ff.js.map": "/static/js/main.adee37ff.js.map",
+    "787.eef0f175.chunk.js.map": "/static/js/787.eef0f175.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60b0555c.css",
-    "static/js/main.452dcadb.js"
+    "static/css/main.d0327777.css",
+    "static/js/main.adee37ff.js"
   ]
 }
