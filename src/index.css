@@ -2,7 +2,7 @@
 /* initialization and general styles start */
 :root {
   --primary-color: rgb(237,237,246);
-  --secondary-color: rgb(146,204,205);
+  --secondary-color: rgb(130, 213, 255);
   --header-color: rgb(49,52,62);
   --text-color: rgb(64,85,117);
 }
@@ -87,7 +87,7 @@ header nav ul li a:hover {
 
 /* hero start  */
 .hero {
-  background-image: url('./assets/images/boats.jpg');
+  background-image: url('./assets/images/bgPortfolio.jpg');
   background-color: #b9b9b9;
   height: 250px;
   background-size: cover;
@@ -95,6 +95,7 @@ header nav ul li a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  opacity: 0.7;
 }
 
 .hero-mini {
