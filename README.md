@@ -28,6 +28,21 @@ Also this site doesn't use react router. And this was solved by showing simple a
 
 This app is deployed in github pages here: [https://brberis.github.io/react-spa-dev-portfolio-project](https://brberis.github.io/react-spa-dev-portfolio-project)
 
+## How to Deploy 
+
+To deploy this portfolio application, please follow these steps:
+
+1. Clone the repository by running the command git clone: 
+[https://github.com/brberis/react-spa-dev-portfolio-project.git](https://github.com/brberis/react-spa-dev-portfolio-project.git)
+2. Navigate to the root of the project directory using the command `cd repo-name`.
+3. Deploy it to your own repo.
+4. Use github pages to deploy.
+
+## Technology 
+
+- React v17
+- JavaScript ES6
+
 
 ## Questions
 
