@@ -286,13 +286,6 @@ article a {
   }
 }
 
-.article-base {
-  justify-content:left;
-
-  vertical-align: baseline;
-  font-size: 18px;
-  color: rgba(224, 224, 224, 0.932) !important;
-}
 
 /* work section end */
  
@@ -555,7 +548,7 @@ button:active {
   }
 
   .content {
-    margin: 20px;
+    margin: 10px;
   }
 
   form {
@@ -601,6 +594,18 @@ button:active {
   .main-content nav {
     margin-bottom: 50px;
   }
+
+  .article-base a {
+    font-size: 13px !important;
+    color: rgba(224, 224, 224, 0.932) !important;
+    margin-bottom: 2px;
+  }
+  
+  .article-base i {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
 /* media query 575px end */
 }
 

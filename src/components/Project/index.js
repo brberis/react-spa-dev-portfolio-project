@@ -16,12 +16,10 @@ function Project(props) {
             <p className="article-description">
             {project.description}
             </p>
-            <div>
-              <p>
+            <div className='article-base'>
                 <a href={project.github} target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i>&nbsp;GitHub</a>
                 <a href={project.deployment} target="_blank" rel="noreferrer"><i className="fa-solid fa-earth-americas"></i>&nbsp;Deployment</a>
-                <a href='#' rel="noreferrer">| Tech: {project.tech} </a>
-              </p>
+                <a href='#' rel="noreferrer">| {project.tech} </a>
             </div>
           </div>
         </div>
