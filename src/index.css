@@ -195,7 +195,7 @@ article {
 .article-detail {
   width: 48%;
   min-width: 180px;
-  height: 130px;
+  height: 250px;
   overflow: hidden;
   margin: 5px;
   background-color: var(--header-color);
@@ -228,26 +228,70 @@ article img:first-of-type:hover {
 }
 
 .article-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   position: absolute;
-  bottom: 10px;
-  background-color: var(--secondary-color);
+  bottom: 0px;
+  background-color: var(--header-color);
+  padding-top: 3px;
   padding-left: 5px;
-  padding-right: 20px;
-  color: var(--text-color);
-  max-width: 250px;
+  padding-right: 4px;
+  color: white;
+  max-width: 450px;
   text-align: left;
-
+  height: 120px;
+  opacity: 0.9;
 }
 
+
 article h4 {
-  color: var(--text-color);
-  font-size: 20px;
+  color: rgba(224, 224, 224, 0.932);
+  font-size: 17px;
+  width: 100%;
 }
 
 article a {
   margin: auto 5px;
-  color: var(--text-color);
+  color: rgba(224, 224, 224, 0.932);
   font-size: 15px;
+}
+
+.article-description {
+  justify-content:left;
+  width: 96%;
+  font-size: 15px;
+  color: rgba(224, 224, 224, 0.932) !important;
+}
+
+.article-description::after {
+  content: "_";
+  display: inline-block;
+  color: white;
+  animation: blink 0.5s infinite;
+}
+
+
+
+
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.article-base {
+  justify-content:left;
+
+  vertical-align: baseline;
+  font-size: 18px;
+  color: rgba(224, 224, 224, 0.932) !important;
 }
 
 /* work section end */
@@ -541,6 +585,14 @@ button:active {
     opacity: 1;
   }
 
+  article a {
+    font-size: 15px !important;
+  }
+  
+  .article-description {
+    font-size: 15px !important;
+  }
+
   #work {
     margin-top: 45px;
   }
@@ -562,3 +614,5 @@ button:active {
 }
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+
