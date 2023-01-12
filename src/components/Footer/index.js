@@ -18,6 +18,13 @@ function Footer() {
               <a href='https://www.linkedin.com/in/cristobal-barberis' target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
             </li>     
           </ul>
+          <ul>
+            <li>
+              <div className='email'>
+                <a  href="mailto:cristobal@barberis.com">cristobal@barberis.com</a>
+              </div>
+            </li>
+          </ul>
         </nav>
       </div>
     </section>

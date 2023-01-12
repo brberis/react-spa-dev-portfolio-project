@@ -370,6 +370,10 @@ button:active {
 .footer-menu ul li a:visited {
   color: var(--secondary-color);
 }
+
+.email a {
+  font-size: 18px;
+}
 /* contact me section end */
 
 /* media query 980px start */
@@ -407,6 +411,7 @@ button:active {
     margin: 5px;
     padding: 5px;
   }
+  
 
 }
 /* media query 980px start */

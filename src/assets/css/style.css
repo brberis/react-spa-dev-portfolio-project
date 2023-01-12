@@ -241,6 +241,12 @@ article h4 {
 .footer-menu ul li a:hover {
   color: rgb(10, 10, 10)
 }
+
+
+.email a {
+  font-size: 15px !important;
+}
+
 /* contact me section end */
 
 /* media query 980px start */
