@@ -271,8 +271,9 @@ article a {
   animation: blink 0.5s infinite;
 }
 
-
-
+.article-base {
+  margin-bottom: 5px;
+}
 
 @keyframes blink {
   0% {
@@ -285,8 +286,6 @@ article a {
       opacity: 1;
   }
 }
-
-
 /* work section end */
  
 /* resume section end */
@@ -597,7 +596,6 @@ button:active {
 
   .article-base a {
     font-size: 13px !important;
-    color: rgba(224, 224, 224, 0.932) !important;
     margin-bottom: 2px;
   }
   
