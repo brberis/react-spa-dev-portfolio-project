@@ -27,11 +27,11 @@ function Portfolio() {
       tech: 'Vanilla JS'
     },
     {
-      name: 'Django NextJs JWT',
-      description: 'Project that utilizes Django as backend and a Next.js frontend consuming API. JWT functionality',
+      name: 'Django React NextJs Resto App',
+      description: 'Web application for managing a restaurant and catering company, including Billing, Recipes, Inventory and more',
       image:'https://github.com/brberis/python-django-react-nextjs-jwt/blob/main/web.jpg?raw=true',
-      github: 'https://github.com/brberis/python-django-react-nextjs-jwt',
-      deployment: 'https://github.com/brberis/python-django-react-nextjs-jwt',
+      github: 'https://github.com/brberis/fullscope-python-django-resto-app',
+      deployment: 'https://github.com/brberis/fullscope-python-django-resto-app',
       tech: 'Django NextJs PostgreSQL'
     },
     {
